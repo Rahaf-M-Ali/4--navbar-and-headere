@@ -1,0 +1,64 @@
+*{
+    margin:0 ;
+    padding: 0%;
+}
+.body{
+    height: 600000px;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar .logo{
+    width: 50%;
+    height:10px;
+    font-size: large;
+    color: aliceblue;
+}
+
+.navbar .list{
+    flex-grow: 1;
+}
+
+.list ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    
+    justify-content: flex-end;
+    
+    
+}
+
+.list ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.contenar{
+    width: 80%;
+    margin: auto;
+}
+.hedar{
+    background-color: rgba(128, 128, 128, 0.427);
+    color:aliceblue;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+   
+
+.hedar-2{
+    
+   background-color: rgba(0,0,0,0.2);
+   padding:40px;
+   border-top:1px solid red;
+}
